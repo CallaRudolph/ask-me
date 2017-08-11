@@ -3,5 +3,6 @@
   <h4>{{question.notes}}</h4>
   <br>
   <p>-asked by {{question.author}}</p><br>
-  {{update-question question=question update="update"}}
+  {{update-question question=question update="update"}}<br>
+  <button {{action 'delete' question}}>Delete Question</button>
 </div>
