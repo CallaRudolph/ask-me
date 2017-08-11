@@ -2,10 +2,10 @@
   <h3>Admin Portal</h3>
   <h4><em>Question Maintenance - click on the question to edit or delete it</em></h4>
 </div>
-<div class="well">
-  <ul class="list-unstyled">
-    {{#each model as |question|}}
-      <h4>{{#link-to 'question-edit' question.id}}{{question.content}}{{/link-to}}</h4><br>
-    {{/each}}
-  </ul>
-</div>
+
+<ul class="list-unstyled">
+  {{#each model as |question|}}
+    <!-- <h4>{{#link-to 'question-edit' question.id}}{{question.content}}{{/link-to}}</h4><br> -->
+    {{question-detail question=question update="update" destroyQuestion="destroyQuestion"}}
+  {{/each}}
+</ul>
