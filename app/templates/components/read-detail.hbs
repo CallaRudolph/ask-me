@@ -5,6 +5,9 @@
   <p>-asked by {{question.author}}</p>
 </div>
 <div class="well">
+  <button {{action 'delete' question}}>Delete question</button>
+</div>
+<div class="well">
   <h4>Answers to this question:</h4>
   <ul>
     {{#each question.answers as |answer|}}
