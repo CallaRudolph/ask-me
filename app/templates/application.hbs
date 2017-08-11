@@ -1,4 +1,16 @@
 <div class="container">
+  <header>
+    <div class="jumbotron">
+      {{#link-to 'index'}}<h1>Tech Entry Forum</h1>{{/link-to}}
+    </div>
+  </header>
 
   {{outlet}}
+
+  <hr>
+  <footer>
+    <div class="well">
+      <p>{{#link-to 'about'}}About Us{{/link-to}} || {{#link-to 'admin'}}Admin{{/link-to}} || <a href="https://www.linkedin.com">LinkedIn</a> || <a href="www.pdxwit.org">PDXWIT</a></p>
+    </div>
+  </footer>
 </div>
