@@ -1,1 +1,11 @@
-{{outlet}}
+<div class="well">
+  <h3>Admin Portal</h3>
+  <h4><em>Question Maintenance</em></h4>
+</div>
+<div class="well">
+  <ul class="list-unstyled">
+    {{#each model as |question|}}
+      <h4>{{question.content}}</h4><br>
+    {{/each}}
+  </ul>
+</div>
