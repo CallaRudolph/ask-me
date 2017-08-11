@@ -17,6 +17,6 @@ export default Ember.Route.extend({
     destroyAnswer(answer) {
      answer.destroyRecord();
      this.transitionTo('read-question');
-   }
+    }
   }
 });
