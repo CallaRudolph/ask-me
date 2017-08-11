@@ -1,0 +1,21 @@
+.jumbotron {
+  margin-top: 2px;
+  background-color: #501537;
+}
+
+#footer {
+  text-align: center;
+}
+
+.well {
+  background-color: #b8c480;
+}
+
+button {
+  background-color: #922d50;
+  color: white;
+}
+
+body {
+  background-color: #922d50;
+}
