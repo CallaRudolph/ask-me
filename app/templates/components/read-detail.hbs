@@ -6,7 +6,9 @@
 </div>
 <div class="well">
   <h4>Answers to this question:</h4>
-  {{#each question.answers as |answer|}}
-    {{answer-detail answer=answer}}
-  {{/each}}
+  <ul>
+    {{#each question.answers as |answer|}}
+      {{answer-detail answer=answer}}
+    {{/each}}  
+  </ul>
 </div>
