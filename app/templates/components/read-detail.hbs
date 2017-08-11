@@ -4,3 +4,9 @@
   <br>
   <p>-asked by {{question.author}}</p>
 </div>
+<div class="well">
+  <h4>Answers to this question:</h4>
+  {{#each question.answers as |answer|}}
+    {{new-answer answer=answer}}
+  {{/each}}
+</div>
