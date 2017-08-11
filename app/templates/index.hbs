@@ -2,10 +2,11 @@
   <h4>Welcome! This forum is present to allow new techies to ask questions to the industry leaders. Click on a question below to view details and responses. Or, click the button to ask away!</h4>
 </div>
 <div class="well">
-  <ul>
+  <ul class="list-unstyled">
     {{#each model as |question|}}
       <li>
-        <h4>{{question.content}}</h4>
+        <h4><em>{{question.content}}</em></h4>
+        <p>- {{question.author}}</p>
       </li>
     {{/each}}
   </ul>
