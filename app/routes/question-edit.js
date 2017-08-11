@@ -12,7 +12,7 @@ export default Ember.Route.extend({
         }
       });
       question.save();
-      this.transitionTo('admin');
+      this.transitionTo('index');
     },
     destroyQuestion(question) {
       var answer_deletions = question.get('answers').map(function(answer) {
