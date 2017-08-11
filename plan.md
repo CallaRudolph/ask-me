@@ -20,6 +20,7 @@
     * Use new-question component to show question form for saving new questions
   * The read-question route will allow users to view the question notes and add answers to that question (with answer response and responder name).
     * Use read-detail component to display the question's notes  
+    * Use answer-detail component to display all answers to question
     * Use new-answer component to show answer form for saving new answers
   * The admin route will serve as the admin portal, with a list of all question content (each in a link-to questions route)
   * The question-edit route will allow admin to edit or delete an individual question and all answers associated with that question.
