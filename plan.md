@@ -15,14 +15,14 @@
   * Admin can click on a specific question to edit or delete it    
 
 3. Integration
-  * It will contain these routes: index, admin, questions, read-question, and about.
+  * It will contain these routes: index, admin, question-edit, read-question, and about.
   * The index route will serve as the homepage, displaying only a list of question content (each in a link-to read-question route) and author's name, and also allow users to add new questions.
     * Use new-question component to show question form for saving new questions
   * The read-question route will allow users to view the question notes and add answers to that question (with answer response and responder name).
     * Use read-detail component to display the question's notes  
     * Use new-answer component to show answer form for saving new answers
   * The admin route will serve as the admin portal, with a list of all question content (each in a link-to questions route)
-  * The questions route will allow admin to edit or delete an individual question and all answers associated with that question.
+  * The question-edit route will allow admin to edit or delete an individual question and all answers associated with that question.
     * Use question-detail and update-question components to edit or delete the question
   * The about route will display information about the app, including its purpose.
 

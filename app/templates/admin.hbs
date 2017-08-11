@@ -5,7 +5,7 @@
 <div class="well">
   <ul class="list-unstyled">
     {{#each model as |question|}}
-      <h4>{{question.content}}</h4><br>
+      <h4>{{#link-to 'question-edit' question.id}}{{question.content}}{{/link-to}}</h4><br>
     {{/each}}
   </ul>
 </div>
