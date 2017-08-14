@@ -11,6 +11,8 @@ export default Ember.Route.extend({
           question.set(key,params[key]);
         }
       });
+      question.save();
+      this.transitionTo('index');
     },
     destroyQuestion(question) {
       var answer_deletions = question.get('answers').map(function(answer) {
