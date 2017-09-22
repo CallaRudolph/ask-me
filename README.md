@@ -2,11 +2,15 @@
 
 _Ember JS Independent Project for Epicodus, 08.11.2017_
 
-By _Calla Rudolph -_ [e-mail](mail.to:callarudolph@gmail.com)
+By _Calla Rudolph_ [(e-mail me here)](<mailto:callarudolph@gmail.com>)
 
 ## Description
 
-This Ember app serves as a forum to the entry-level tech community. New techies can ask questions to experienced techies and receive answers. Each question can have multiple answers, but each answer only pertains to one question. The user can also update or delete a question if needed, as well as delete an answer. 
+This Ember app serves as a forum to the entry-level tech community. New techies can ask questions to experienced techies and receive answers. Each question can have multiple answers, but each answer only pertains to one question. The user can also update or delete a question if needed, as well as delete an answer.
+
+![Ask Away Preview](Question.png)
+
+![Answer Away Preview](Answer.png)
 
 ## Prerequisites
 
@@ -38,7 +42,7 @@ You will need the following things properly installed on your computer.
 * If an input field is left empty when updating a question, the new value of that attribute will save as nothing. All input fields currently need to be filled out when updating the question.
 
 ## Technologies Used
-Ember JS, Node.js, Bootstrap, CSS, HTML
+Ember JS, Node.js, Firebase, Bootstrap, CSS, HTML
 
 ## Further Reading / Useful Links
 
